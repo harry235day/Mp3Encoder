@@ -2,12 +2,12 @@
 #
 #project("jni")
 #
-#file(GLOB allCPP *.h *.c *.cpp)
+#file(GLOB xxxCPP *.h *.c *.cpp)
 #
 #add_library(
 #        jni
 #        SHARED
-#        ${allCPP})
+#        ${xxxCPP})
 #
 #find_library(
 #        log-lib

@@ -112,7 +112,7 @@ class Mp3Activity : AppCompatActivity() {
 
                 }
                 mediaPlayer?.setOnErrorListener { mp, what, extra ->
-                    Log.e("zll","$what   --- $extra")
+                    Log.e("TAG","$what   --- $extra")
                     false
                 }
             }else{

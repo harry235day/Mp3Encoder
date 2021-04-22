@@ -3,7 +3,7 @@
 #include "libmp3lame/lame.h"
 #include "mp3-encoder.h"
 #include <pthread.h>
-#define Loge(...) __android_log_print(ANDROID_LOG_ERROR  , "zll", __VA_ARGS__)
+#define Loge(...) __android_log_print(ANDROID_LOG_ERROR  , "TAG", __VA_ARGS__)
 
 extern "C"
 JNIEXPORT jint JNICALL
